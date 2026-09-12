@@ -1,0 +1,21 @@
+# Editor/IDE settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Datasets (raw data shouldn't be committed)
+*.csv
+
+# Environment/secrets
+.env
+venv/
+env/
+
+# OS junk files
+.DS_Store
+Thumbs.db
