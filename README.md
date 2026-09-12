@@ -10,14 +10,18 @@ You enter transaction details, and the app runs them through a trained ML pipeli
 
 ## Running it yourself
 
+## Dataset
+
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/TheStereo-code/Fraud_prediction.git>
 cd Fraud_detection
 python -m venv venv
 venv\Scripts\activate        # (Mac/Linux: source venv/bin/activate)
 pip install -r requirements.txt
 streamlit run main/fraud_detection.py
 ```
+This project uses the [AIML Fraud Detection Dataset](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download&select=AIML+Dataset.csv) for training. 
+Download it and place it inside the `main/` folder as `AIML_Dataset.csv` before running `analysis.ipynb`.
 
 ## About the model
 
