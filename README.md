@@ -11,7 +11,7 @@ You enter transaction details, and the app runs them through a trained ML pipeli
 ## Running it yourself
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/TheStereo-code/Fraud_prediction.git>
 cd Fraud_detection
 python -m venv venv
 venv\Scripts\activate        # (Mac/Linux: source venv/bin/activate)
