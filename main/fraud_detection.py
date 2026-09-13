@@ -4,7 +4,7 @@ import joblib
 import os 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model = joblib.load(os.path.join(BASE_DIR,"fraud_detection.py"))
+model = joblib.load(os.path.join(BASE_DIR, "fraud_detection_pipeline.pkl"))
 
 st.title("Fraud Prediction App")
 
