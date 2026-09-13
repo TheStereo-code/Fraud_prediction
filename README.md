@@ -2,7 +2,7 @@
 
 A simple Streamlit app that predicts whether a transaction looks fraudulent, based on a model I trained on transaction data.
 
-**Live app:** [link once deployed]
+**Live app:** [https://frauddetectt.streamlit.app/]
 
 ## What it does
 
